@@ -40,9 +40,9 @@ body {
       <form class="form-signin" method="POST">
         <h2 class="form-signin-heading">Register</h2>
         <br>
-        <input type="text" class="form-control" name="name" placeholder="Name" required="" autofocus="" />
+        <input type="text" class="form-control" name="name" placeholder="Name" required="" autofocus="" pattern="[a-zA-Z\s]+" />
         <br>
-        <input type="text" class="form-control" name="phone" placeholder="Phone Number" required="" autofocus="" />
+        <input type="text" class="form-control" name="phone" placeholder="Phone Number" required="" autofocus="" pattern="/(7|8|9)\d{9}/" />
         <br>
         <input type="text" class="form-control" name="username" placeholder="LoginID" required="" autofocus="" />
         <br>

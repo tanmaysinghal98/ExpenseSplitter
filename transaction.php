@@ -69,7 +69,7 @@ $size = (int)$response[0]['count(UserID)'];
               <th>Description</th>
               <th>Date</th>
               <th>Amount</th>
-              <th>Pending Amount</th>
+              <th>My Share</th>
             </tr>
           </thead>
           <tbody>
