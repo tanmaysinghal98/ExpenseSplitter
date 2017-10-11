@@ -42,7 +42,7 @@ body {
         <br>
         <input type="text" class="form-control" name="name" placeholder="Name" required="" autofocus="" pattern="[a-zA-Z\s]+" />
         <br>
-        <input type="text" class="form-control" name="phone" placeholder="Phone Number" required="" autofocus="" pattern="/(7|8|9)\d{9}/" />
+        <input type="text" class="form-control" name="phone" placeholder="Phone Number" required="" autofocus="" pattern="^[789]\d{9}$" />
         <br>
         <input type="text" class="form-control" name="username" placeholder="LoginID" required="" autofocus="" />
         <br>
